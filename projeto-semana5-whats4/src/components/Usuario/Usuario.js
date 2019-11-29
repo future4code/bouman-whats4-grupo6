@@ -4,11 +4,12 @@ import './Usuario.css';
 class Usuario extends React.Component {
   constructor (props) {
     super(props);
-    this.state.arrayUserMsg = [
+    this.state = {
+      arrayUserMsg: [
       {nomeUser: "", textoMensagem: ""}
       ]
     };
-
+  }
 
   controleUser = e =>{
     this.setState({
@@ -34,7 +35,7 @@ class Usuario extends React.Component {
     return (
       <div>
         <div id="Main-container">
-          {this.state.arrayUserMsg.map((mensagem, index, array)=>{
+          { this.state.arrayUserMsg.map((mensagem, index, array)=>{
             return(
               <div> 
                   <h4>{mensagem.nomeUser}</h4>
