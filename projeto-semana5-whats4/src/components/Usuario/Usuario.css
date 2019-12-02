@@ -1,0 +1,41 @@
+.Estilo-usuario {
+    margin-left: 10px;
+}
+.Estilo-Mensagem {
+    margin: 5px;
+    width: 460px;
+}
+.estilo-input{
+    margin: 0 auto;
+    margin-top: 0.3%;
+    width: 735px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+#Main-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 705px;
+    height: 690px;
+    padding:15px;
+    margin-left: 100px;
+    margin: 0 auto;
+    background-image: url(https://web.whatsapp.com/img/bg-chat-tile_9e8a2898faedb7db9bf5638405cf81ae.png);
+    background-color: white;
+    
+}
+ .area-mensagem{
+    display: flex;
+    margin-top: 1%;  
+}
+.conteudo-mensagem{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px 2px #cccccc;  
+    padding: 0 10px;
+}
+
