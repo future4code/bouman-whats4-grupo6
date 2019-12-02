@@ -3,10 +3,13 @@ import './App.css';
 import Usuario from '../src/components/Usuario/Usuario'
 
 
+
 function App() {
   return (
-    <div className="Main-container"> 
-      <Usuario/>
+    <div className="App">
+      <div className="Main-container"> 
+        <Usuario/>
+      </div>
     </div>
   );
 }
